@@ -141,7 +141,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas%206.html">
-   Decision Tree
+   Tugas 6
   </a>
  </li>
 </ul>
@@ -350,39 +350,32 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Tugas 4
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#klasifikasi-dataset-iris-menggunakan-metode-naive-bayes">
+   Klasifikasi dataset iris menggunakan metode Naive Bayes
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#klasifikasi-dataset-iris-menggunakan-metode-naive-bayes">
-     Klasifikasi dataset iris menggunakan metode Naive Bayes
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#memisahkan-dataset-menjadi-training-set-dan-test-set">
    Memisahkan dataset menjadi Training set dan Test set
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#penskalaan-fitur">
    Penskalaan Fitur
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#melatih-model-klasifikasi-naive-bayes-pada-training-set">
    Melatih model Klasifikasi Naive Bayes pada Training Set
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#memprediksi-hasil-test-set">
    Memprediksi hasil Test Set
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#confusion-matrix-dan-akurasi">
    Confusion Matrix dan Akurasi
   </a>
@@ -406,39 +399,32 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Tugas 4
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#klasifikasi-dataset-iris-menggunakan-metode-naive-bayes">
+   Klasifikasi dataset iris menggunakan metode Naive Bayes
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#klasifikasi-dataset-iris-menggunakan-metode-naive-bayes">
-     Klasifikasi dataset iris menggunakan metode Naive Bayes
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#memisahkan-dataset-menjadi-training-set-dan-test-set">
    Memisahkan dataset menjadi Training set dan Test set
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#penskalaan-fitur">
    Penskalaan Fitur
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#melatih-model-klasifikasi-naive-bayes-pada-training-set">
    Melatih model Klasifikasi Naive Bayes pada Training Set
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#memprediksi-hasil-test-set">
    Memprediksi hasil Test Set
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#confusion-matrix-dan-akurasi">
    Confusion Matrix dan Akurasi
   </a>
@@ -769,9 +755,8 @@ title="Print to PDF"
 </div></div>
 </div>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="memisahkan-dataset-menjadi-training-set-dan-test-set">
-<h1>Memisahkan dataset menjadi Training set dan Test set<a class="headerlink" href="#memisahkan-dataset-menjadi-training-set-dan-test-set" title="Permalink to this headline">#</a></h1>
+<section id="memisahkan-dataset-menjadi-training-set-dan-test-set">
+<h2>Memisahkan dataset menjadi Training set dan Test set<a class="headerlink" href="#memisahkan-dataset-menjadi-training-set-dan-test-set" title="Permalink to this headline">#</a></h2>
 <p>Setelah mendapatkan sebuah dataset, lalu dataset tersebut dibagi menjadi Training set dan Test set. Dalam kumpulan data ini, ada 150 baris dengan 50 baris masing-masing dari 3 kelas. Karena setiap kelas diberikan dalam urutan yang berkelanjutan, kita perlu membagi dataset secara acak.</p>
 <p>Di sini, kita memiliki test_size=0.2, yang berarti bahwa 20% dari dataset akan digunakan untuk tujuan pengujian sebagai test set dan 80% sisanya akan digunakan sebagai training set untuk melatih model klasifikasi Naive Bayes.</p>
 <div class="cell docutils container">
@@ -783,8 +768,8 @@ title="Print to PDF"
 </div>
 </div>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="penskalaan-fitur">
-<h1>Penskalaan Fitur<a class="headerlink" href="#penskalaan-fitur" title="Permalink to this headline">#</a></h1>
+<section id="penskalaan-fitur">
+<h2>Penskalaan Fitur<a class="headerlink" href="#penskalaan-fitur" title="Permalink to this headline">#</a></h2>
 <p>Dataset diperkecil ke rentang yang lebih kecil menggunakan opsi Penskalaan Fitur. Dalam hal ini, nilai X_train dan X_test diperkecil ke nilai yang lebih kecil untuk meningkatkan kecepatan program.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -797,8 +782,8 @@ title="Print to PDF"
 </div>
 </div>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="melatih-model-klasifikasi-naive-bayes-pada-training-set">
-<h1>Melatih model Klasifikasi Naive Bayes pada Training Set<a class="headerlink" href="#melatih-model-klasifikasi-naive-bayes-pada-training-set" title="Permalink to this headline">#</a></h1>
+<section id="melatih-model-klasifikasi-naive-bayes-pada-training-set">
+<h2>Melatih model Klasifikasi Naive Bayes pada Training Set<a class="headerlink" href="#melatih-model-klasifikasi-naive-bayes-pada-training-set" title="Permalink to this headline">#</a></h2>
 <p>Pada langkah ini, memperkenalkan kelas GaussianNB yang digunakan dari library sklearn.naive_bayes, ada beberapa model lain seperti Bernoulli, Categorical dan Multinomial. Di sini, kami menetapkan kelas GaussianNB ke pengklasifikasi variabel dan memasukkan nilai X_train dan y_train ke dalamnya untuk tujuan pelatihan.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -815,8 +800,8 @@ title="Print to PDF"
 </div>
 </div>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="memprediksi-hasil-test-set">
-<h1>Memprediksi hasil Test Set<a class="headerlink" href="#memprediksi-hasil-test-set" title="Permalink to this headline">#</a></h1>
+<section id="memprediksi-hasil-test-set">
+<h2>Memprediksi hasil Test Set<a class="headerlink" href="#memprediksi-hasil-test-set" title="Permalink to this headline">#</a></h2>
 <p>Setelah model dilatih, selanjutnya menggunakan classifier.predict() untuk memprediksi nilai untuk Test set dan nilai yang diprediksi disimpan ke variabel y_pred.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -840,8 +825,8 @@ title="Print to PDF"
 </div>
 </div>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="confusion-matrix-dan-akurasi">
-<h1>Confusion Matrix dan Akurasi<a class="headerlink" href="#confusion-matrix-dan-akurasi" title="Permalink to this headline">#</a></h1>
+<section id="confusion-matrix-dan-akurasi">
+<h2>Confusion Matrix dan Akurasi<a class="headerlink" href="#confusion-matrix-dan-akurasi" title="Permalink to this headline">#</a></h2>
 <p>Ini adalah langkah yang banyak digunakan dalam teknik klasifikasi. Dalam hal ini, kita melihat Akurasi model yang dilatih dan memplot confusion matrix.</p>
 <p><strong>Confusion matrix</strong> adalah tabel yang digunakan untuk menunjukkan jumlah prediksi yang benar dan salah pada masalah klasifikasi ketika nilai nyata dari Test Set diketahui.</p>
 <div class="cell docutils container">
@@ -867,6 +852,7 @@ title="Print to PDF"
 </div>
 </div>
 <p>Dari confusion matrix di atas, dapat disimpulkan bahwa, dari 30 data test set semua diklasifikasikan dengan benar. Ini memberikan akurasi tinggi 100%.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
